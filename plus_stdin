@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#SPDX-FileCoppyrightText; 2022 Takumi Fukazawa 
 import sys
 
 ans = 0
