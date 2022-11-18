@@ -9,13 +9,13 @@ ng ( ) {
 res=0
 
 ### I/O TEST ###
-out=$(seq 5 | ./plus)
+out=$(seq 5 | ./plus) # 計算結果がint型の整数のテスト
 [ "${out}" = "15[1, 3, 5, 15][3, 5]" ] || ng ${LINENO}
 
-out=$( seq 5 | sed 's/$/.1/' | ./plus)
+out=$( seq 5 | sed 's/$/.1/' | ./plus)  # 計算結果が小数のテスト
 [ "${out}" = "15.5No divisors.Prime factorization is not possible." ] || ng ${LINENO}
 
-out=$( seq 5 | sed 's/$/.2/' | ./plus)
+out=$( seq 5 | sed 's/$/.2/' | ./plus) # 計算結果がfloat型の整数のテスト
 [ "${out}" = "16.0[1, 2, 4, 8, 16][2, 2, 2, 2]" ] || ng ${LINENO}
 
 ### STRANGE INPUT ###
