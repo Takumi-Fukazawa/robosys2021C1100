@@ -3,7 +3,7 @@ import sys
 
 ans = 0
 
-for line in sys.stdin:
+for line in sys.stdin: # 総和の計算
     try:
         ans += int(line)
     except:
