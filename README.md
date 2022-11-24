@@ -12,7 +12,7 @@
 * Python
   * テスト済み: 3.7〜3.10
 
-##利用方法
+## 利用方法
 * "plus.py"というpythonコードを作成してください。
 * 次のURLの"plus"のコードを上記の"plus.py"にコピー＆ペーストしてください。(https://github.com/Takumi-Fukazawa/robosys2021C1100/blob/main/plus)
 * ディレクトリに戻り "chmod +x plus.py"と入力してください。
